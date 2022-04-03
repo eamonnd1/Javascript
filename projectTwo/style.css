@@ -1,0 +1,51 @@
+html body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #621fe7;
+}
+
+.title {
+    top: 0;
+    margin-top: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: normal;
+    font-size: 1.75rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cap {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    font-family: 'Playfair Display', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    display: table;
+    font-weight: normal;
+    font-size: 1.75rem;
+    margin: 0 auto;
+}
+
+#quoteBtn {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#quoteBtn:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+}
